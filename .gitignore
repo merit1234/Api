@@ -1,0 +1,33 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore logs
+logs/
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore configuration files with sensitive information
+config.js
+config.json
+
+# Ignore build output
+/build/
+
+# Ignore any file with .DS_Store extension
+.DS_Store
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore files and directories starting with . or ~
+.*.swp
+*~

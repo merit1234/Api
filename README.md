@@ -1,8 +1,8 @@
 Simple to install
 Ensure you have NodeJs v20 or above installed
-clone this project
+Clone this project
 Unzip it
-Open the folder with your favorite code editor preferably VsCODE
+Open the folder with your favorite code editor preferably VS CODE.
 From your terminal Run `npm install` from  to install dependencies.(make sure you are within the directory of the project)
 After installing dependencies without any error, run `nodemon src/app.js` from your open terminal.
 
