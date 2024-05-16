@@ -1,5 +1,5 @@
-const countWords = require("./CountWords");
-const formatReadingTime = require("./FormatReadingTime");
+const countWords = require("./countWords");
+const formatReadingTime = require("./formatReadingTime");
 
 
 // Function to calculate reading time based on word count and reading speed
