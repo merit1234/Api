@@ -38,8 +38,7 @@ async function getAllPosts(req, res) {
     });
   } catch (error) {
      //used winston logger to log error
-     //logger.info(error);
-     console.log(error)
+     logger.info(error);
     res.status(500).json({ error: 'Failed to fetch posts' });
   }
 }
