@@ -22,7 +22,7 @@ async function signUp(req, res) {
     // Return success response
     res.status(201).json({ message: 'User registered successfully' });
   } catch (error) {
-    logger.info.error(error);
+    logger.info(error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
 }
