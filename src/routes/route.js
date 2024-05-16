@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/BaseController');
-const { authenticateToken } = require('../middlewares/AuthMiddleware');
+const { authenticateToken } = require('../middlewares/authMiddleware');
 const isPostAuthor = require('../middlewares/isPostAuthor');
 
 
